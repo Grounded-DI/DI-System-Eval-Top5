@@ -66,7 +66,7 @@ Evaluation, licensing, integration, and research inquiries can be opened through
 
 ## Authorship, Provenance, and Intellectual Property
 
-The text files identify Grounded DI LLC and preserve their contemporaneous wording and file history. Several documents use the phrase `patent-backed DI modules`; that phrase is part of the archived analysis language. No patent receipt or issued-patent record is included in this repository, so the README does not make an independent filing or issuance determination.
+The text files identify Grounded DI LLC and preserve their contemporaneous wording and file history. An earlier README described the framework as “informed by patent-backed DI modules”; that wording is retained here as historical context, not as an independent filing or issuance determination. No patent receipt or issued-patent record is included in this repository.
 
 No open-source license is currently provided in this repository. Copyright and other rights remain with Grounded DI LLC and applicable authors except where expressly stated otherwise.
 
