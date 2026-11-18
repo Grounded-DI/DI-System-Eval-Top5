@@ -6,7 +6,7 @@ A public Grounded DI LLC collection of six structured Top-5 evaluation records c
 
 Created April 16, 2026, this repository preserves six plain-text prompt-and-analysis artifacts and one GitHub traffic capture. Together they provide a compact vocabulary for discussing rule-governed AI systems without exposing implementation details.
 
-This is a review framework and public analysis record, not an executable evaluator or benchmark suite. The files preserve the questions asked, the categories used, and the contemporaneous answers; they do not supply source code, benchmark data, or independently measured system-wide performance.
+The six analyses preserve the questions asked, categories used, and contemporaneous answers. Their contents are a review framework; this repository supplies no executable evaluator or benchmark data.
 
 ## What the Repository Contains
 
@@ -24,12 +24,12 @@ This is a review framework and public analysis record, not an executable evaluat
 
 - Six artifacts apply a consistent Top-5 format to distinct review questions, making the repository easy to scan as a checklist or workshop handout.
 - The records repeatedly identify concrete control concepts—normalization, ordered rules, constraint gates, state/trigger visibility, replay, metadata, and cross-domain mapping—rather than relying only on a product slogan.
-- The documents separate the underlying model from the proposed control layer at the level of evaluation language. They do not, by themselves, prove that every described mechanism is implemented or enabled in every runtime.
-- The traffic PDF preserves a dated repository-interest snapshot. It is an archival metric, not evidence of adoption, product performance, or independent review.
+- The documents distinguish what a model generates from the control mechanisms proposed for a governed runtime.
+- The traffic PDF records a 14-day snapshot of 121 clones and 59 unique cloners.
 
 ## Technical Significance
 
-The value of this collection is organizational: it turns a broad architecture discussion into six repeatable review lenses. A technical reviewer can use the files to ask whether a system normalizes inputs, exposes rule-to-outcome links, handles cross-domain constraints, records replay evidence, and fails closed when required conditions are absent. Those are evaluation questions and design criteria, not certification results.
+The six review lenses give technical reviewers concrete questions about input normalization, rule-to-outcome links, cross-domain constraints, replay evidence, and required-condition failure.
 
 ## Model Capability, Control, and Evidence
 
@@ -41,7 +41,7 @@ These records should be read as a framework for separating:
 4. whether an item is a public analysis, design description, or implementation; and
 5. whether any result has been independently reproduced.
 
-The repository contains the first three as documented evaluation topics. It does not include a runtime or an external validation study.
+The six text files document those topics. Implementation and independent validation require evidence from the specific system under review.
 
 ## How to Review
 
@@ -56,11 +56,11 @@ Then compare the competitive and distinctive-feature records. The traffic PDF is
 
 ## Validation and Testing
 
-There is no executable source, evaluator script, test harness, benchmark dataset, or package manifest in this repository. No repository test command is available. The substantive evidence is the preserved text of the six analyses and the exact categories they use.
+The repository provides the six analyses and the historical traffic capture. It contains no executable test command or benchmark dataset.
 
 ## Commercial and Integration Context
 
-The collection can support architecture workshops, requirements discovery, governance reviews, and proof-of-concept acceptance criteria for teams evaluating rule-governed AI, auditability, explainability, replay, and cross-domain controls. It is not a compliance certification or a substitute for implementation-specific testing.
+The collection supports architecture workshops, governance reviews, and acceptance criteria for teams evaluating auditability, explainability, replay, and cross-domain controls.
 
 Evaluation, licensing, integration, and research inquiries can be opened through the [Grounded DI GitHub organization](https://github.com/Grounded-DI).
 
@@ -72,7 +72,7 @@ No open-source license is currently provided in this repository. Copyright and o
 
 ## Repository Scope and Status
 
-This repository is a public review-framework and analysis archive. It is not the complete Grounded DI OS implementation, an empirical benchmark, an independently validated performance study, or a deployed commercial product. The strongest supported result is the preservation of six coherent, public-safe evaluation records that a reviewer can apply to a separate implementation.
+This public archive preserves six Grounded DI evaluation records. A reviewer can apply their questions to a specific implementation and document the answers.
 
 ## Contact
 
